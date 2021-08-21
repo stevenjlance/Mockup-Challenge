@@ -5,7 +5,8 @@ function setup(){
 
 function draw(){
   background(220)
-	text(mouseX + " ," + mouseY, 25, 25)
+	textSize(20)
+	text(mouseX + ", " + mouseY, 25, 25)
 	// Code logo below here
 
 
@@ -15,5 +16,5 @@ function draw(){
 
 
 
-	
+
 }
